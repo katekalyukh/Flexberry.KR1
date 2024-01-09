@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-k-r1-чек-e",
+  "editForm": "i-i-s-k-r1-чек-e",
+  "external": false,
+  "caption": "Чек",
+  "name": "IISKR1ЧекL",
+  "className": "ЧекL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r1-чек",
+      "modelProjection": "ЧекL"
+    }
+  ]
+}

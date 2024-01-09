@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-k-r1-оператор-e",
+  "editForm": "i-i-s-k-r1-оператор-e",
+  "external": false,
+  "caption": "Оператор",
+  "name": "IISKR1ОператорL",
+  "className": "ОператорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r1-оператор",
+      "modelProjection": "ОператорL"
+    }
+  ]
+}

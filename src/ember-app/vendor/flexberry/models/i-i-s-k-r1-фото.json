@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISKR1Фото",
+  "modelName": "i-i-s-k-r1-фото",
+  "className": "Фото",
+  "nameSpace": "IIS.KR1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказ",
+      "relatedTo": "i-i-s-k-r1-заказ",
+      "inverse": "фото"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ФотоE",
+      "modelName": "i-i-s-k-r1-фото",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ФотоL",
+      "modelName": "i-i-s-k-r1-фото",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

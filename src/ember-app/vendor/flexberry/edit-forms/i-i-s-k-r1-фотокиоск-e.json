@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Фотокиоск",
+  "name": "IISKR1ФотокиоскE",
+  "className": "ФотокиоскE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r1-фотокиоск",
+      "modelProjection": "ФотокиоскE"
+    }
+  ]
+}

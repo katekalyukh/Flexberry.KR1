@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-k-r1-проверка-киоска-e",
+  "editForm": "i-i-s-k-r1-проверка-киоска-e",
+  "external": false,
+  "caption": "Проверка киоска",
+  "name": "IISKR1ПроверкаКиоскаL",
+  "className": "ПроверкаКиоскаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-k-r1-проверка-киоска",
+      "modelProjection": "ПроверкаКиоскаL"
+    }
+  ]
+}

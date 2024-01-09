@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "K r1",
+  "applicationTitle": "K r1",
+  "items": [
+    {
+      "link": null,
+      "menuName": "k-r1",
+      "caption": "KR1",
+      "title": "KR1",
+      "children": [
+        {
+          "link": "i-i-s-k-r1-оператор-l",
+          "menuName": null,
+          "caption": "Оператор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r1-проверка-киоска-l",
+          "menuName": null,
+          "caption": "Проверка киоска",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r1-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r1-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r1-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r1-фотокиоск-l",
+          "menuName": null,
+          "caption": "Фотокиоск",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-k-r1-чек-l",
+          "menuName": null,
+          "caption": "Чек",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

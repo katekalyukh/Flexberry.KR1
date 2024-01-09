@@ -1,0 +1,112 @@
+﻿{
+  "name": "IISKR1Заказ",
+  "modelName": "i-i-s-k-r1-заказ",
+  "className": "Заказ",
+  "nameSpace": "IIS.KR1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЗаказа",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "носитель",
+      "type": "i-i-s-k-r1-вид-носителя",
+      "flexberryType": "ВидНосителя",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиент",
+      "relatedTo": "i-i-s-k-r1-клиент",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "фотокиоск",
+      "relatedTo": "i-i-s-k-r1-фотокиоск",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "фото",
+      "relatedTo": "i-i-s-k-r1-фото",
+      "inverse": "заказ"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЗаказE",
+      "modelName": "i-i-s-k-r1-заказ",
+      "attrs": [
+        {
+          "name": "номерЗаказа",
+          "caption": "Номер заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "носитель",
+          "caption": "Носитель",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ФотоL",
+          "caption": "Фото",
+          "name": "фото",
+          "relatedTo": "i-i-s-k-r1-фото",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЗаказL",
+      "modelName": "i-i-s-k-r1-заказ",
+      "attrs": [
+        {
+          "name": "номерЗаказа",
+          "caption": "Номер заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "носитель",
+          "caption": "Носитель",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ФотоL",
+          "caption": "",
+          "name": "фото",
+          "relatedTo": "i-i-s-k-r1-фото",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
